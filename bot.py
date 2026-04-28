@@ -391,10 +391,44 @@ PLACES = {
         "site": "https://www.planetarium.perm.ru/"
     }
 }
-# ---------- ПОДКАТЕГОРИИ ----------
+SECTIONS = {
+    "culture": {
+        "title": "🎭 Культура",
+        "categories": [
+            "art",
+            "family",
+            "music",
+            "theater",
+            "unusual",
+            "history",
+            "tourist",
+            "creative",
+            "science"
+        ]
+    },
+
+    "walk": {
+        "title": "🚶 Прогулка",
+        "categories": [
+            "streetart",
+            "family_walk",
+            "nature",
+            "romantic",
+            "sport",
+            "photo",
+            "relax",
+            "events",
+            "city_walk"
+        ]
+    }
+}
+
+
 SUBCATEGORIES = {
 
-    "NEWculture": {
+    # ---------- КУЛЬТУРА ----------
+
+    "art": {
         "title": "Искусство",
         "places": [
             "Perm_gallery",
@@ -405,8 +439,7 @@ SUBCATEGORIES = {
             "Drugie_krugi",
             "Russkiy_salon",
             "Maris_art",
-            "Prostranstvo_Tut",
-            "Perm_Art_Residency"
+            "Prostranstvo_Tut"
         ]
     },
 
@@ -421,29 +454,27 @@ SUBCATEGORIES = {
             "Teatr_Tyatrik",
             "Puppet_Theatre",
             "Tuki_Luki",
-            "Perm_circus",
-            "Perm_planetarium"
+            "Komnata_skazok"
         ]
     },
 
     "music": {
-        "title": "Музыка и танцы",
+        "title": "Музыка и сцена",
         "places": [
             "Opera_Ballet",
             "Panfilov_Ballet",
             "Orfei",
-            "Teatr_Tyatrik",
             "Perm_philharmonia",
             "Triumph_philharmonia",
-            "Jazz_Hall",
-            "Dom_Muzyki",
-            "Organ_Hall",
-            "Concert_Hall_Perm"
+            "Teatr_Teatr",
+            "Novaya_drama",
+            "U_Mosta",
+            "Perm_Youth_Theatre"
         ]
     },
 
     "theater": {
-        "title": "Драматический театр",
+        "title": "Театры",
         "places": [
             "Teatr_Teatr",
             "U_Mosta",
@@ -452,41 +483,38 @@ SUBCATEGORIES = {
             "Vek_zhizni",
             "TYuZ",
             "Puppet_Theatre",
-            "Scena_Molot",
-            "Triumph_philharmonia",
-            "Panfilov_Ballet"
+            "Tuki_Luki",
+            "Teatr_Tyatrik"
         ]
     },
 
     "unusual": {
-        "title": "Необычный формат",
+        "title": "Необычные места",
         "places": [
-            "U_Mosta",
-            "Teatr_Tyatrik",
-            "Triumph_philharmonia",
+            "PERMM",
+            "Vekarta",
             "Tochka_sborki",
             "Drugie_krugi",
             "Prostranstvo_Tut",
-            "PERMM",
-            "Vekarta",
+            "Perm_Art_Residency",
             "Mirror_Bear",
-            "Hands_Heart"
+            "Hands_Heart",
+            "Mirror_object_Perm"
         ]
     },
 
-    "culture1": {
-        "title": "Культурная среда",
+    "history": {
+        "title": "История",
         "places": [
-            "Opera_Ballet",
-            "U_Mosta",
-            "Teatr_Teatr",
-            "Novaya_drama",
-            "Panfilov_Ballet",
-            "Perm_philharmonia",
-            "Triumph_philharmonia",
+            "Perm_local_history_museum",
+            "Perm_ancient_museum",
             "Perm_gallery",
-            "PERMM",
-            "Perm_local_history_museum"
+            "Skver_Dzerzhinsky",
+            "Sad_Sverdlova",
+            "Permyak_salted_ears",
+            "Russkiy_salon",
+            "House_Meshkov",
+            "Perm_planetarium"
         ]
     },
 
@@ -494,20 +522,51 @@ SUBCATEGORIES = {
         "title": "Гостям города",
         "places": [
             "Opera_Ballet",
-            "Teatr_Teatr",
-            "U_Mosta",
             "Perm_gallery",
             "PERMM",
+            "Teatr_Teatr",
             "Perm_local_history_museum",
             "Perm_ancient_museum",
             "Perm_circus",
-            "Esplanada",
-            "Perm_planetarium"
+            "Perm_planetarium",
+            "Esplanada"
         ]
     },
 
+    "creative": {
+        "title": "Творческая среда",
+        "places": [
+            "Maris_art",
+            "Gallery_Anastasia_Popova",
+            "Perm_Art_Residency",
+            "Tochka_sborki",
+            "Drugie_krugi",
+            "Prostranstvo_Tut",
+            "PERMM",
+            "Vekarta",
+            "Russkiy_salon"
+        ]
+    },
+
+    "science": {
+        "title": "Наука и открытия",
+        "places": [
+            "Perm_planetarium",
+            "Perm_ancient_museum",
+            "Tech_miniature_museum",
+            "Children_museum_center",
+            "Perm_local_history_museum",
+            "Henkel_botanical_garden",
+            "Confectoria",
+            "Perm_gallery",
+            "PERMM"
+        ]
+    },
+
+    # ---------- ПРОГУЛКА ----------
+
     "streetart": {
-        "title": "Современное искусство",
+        "title": "Стрит-арт",
         "places": [
             "Happiness_not_far",
             "Mirror_Bear",
@@ -515,14 +574,13 @@ SUBCATEGORIES = {
             "Permyak_salted_ears",
             "Mirror_object_Perm",
             "Esplanada",
-            "Street_Graffiti_Wall",
-            "Art_Yard",
-            "Murals_Kama",
-            "Creative_Quarter"
+            "Skver_Dzerzhinsky",
+            "Sad_Sverdlova",
+            "Zakamskaya_naberezhnaya"
         ]
     },
 
-    "familyWALK": {
+    "family_walk": {
         "title": "Семейная прогулка",
         "places": [
             "Central_Park_Gorky",
@@ -533,38 +591,35 @@ SUBCATEGORIES = {
             "Mindovsky_sad",
             "Sad_250_letiya",
             "Esplanada",
-            "Perm_zoo",
-            "Zakamskaya_naberezhnaya"
+            "Perm_zoo"
         ]
     },
 
     "nature": {
-        "title": "Природа и экотуризм",
+        "title": "Природа",
         "places": [
             "Chernyaevsky_les",
             "Henkel_botanical_garden",
             "Zakamskaya_naberezhnaya",
             "Serebryanskiy_park",
-            "Esplanada",
             "Balatovo_Park",
+            "Rybalko_Park",
             "Andronovskiye_prudy",
-            "Kama_Shore",
-            "Eco_Trail_Perm",
-            "Rybalko_Park"
+            "Zolotye_peski",
+            "Mindovsky_sad"
         ]
     },
 
     "romantic": {
-        "title": "Романтическая прогулка",
+        "title": "Романтика",
         "places": [
-            "Central_Park_Gorky",
             "Hands_Heart",
             "Happiness_not_far",
             "Esplanada",
             "Zakamskaya_naberezhnaya",
             "Serebryanskiy_park",
+            "Central_Park_Gorky",
             "Sad_250_letiya",
-            "Kama_Shore",
             "Mirror_Bear",
             "Balatovo_Park"
         ]
@@ -574,31 +629,29 @@ SUBCATEGORIES = {
         "title": "Активный отдых",
         "places": [
             "Chernyaevsky_les",
+            "Balatovo_Park",
             "Central_Park_Gorky",
             "Andronovskiye_prudy",
-            "Balatovo_Park",
             "Rybalko_Park",
-            "Esplanada",
-            "Kama_Shore",
-            "Bike_Park",
-            "Skate_Park_Perm",
-            "Eco_Trail_Perm"
+            "Zolotye_peski",
+            "Zakamskaya_naberezhnaya",
+            "Serebryanskiy_park",
+            "Mindovsky_sad"
         ]
     },
 
-    "study": {
-        "title": "История города",
+    "photo": {
+        "title": "Фотолокации",
         "places": [
-            "Skver_Dzerzhinsky",
+            "Happiness_not_far",
+            "Mirror_Bear",
+            "Hands_Heart",
             "Permyak_salted_ears",
-            "Sad_Sverdlova",
-            "Sad_250_letiya",
+            "Mirror_object_Perm",
             "Esplanada",
-            "Perm_local_history_museum",
-            "Perm_ancient_museum",
-            "Perm_gallery",
-            "Historic_Center",
-            "House_Meshkov"
+            "Zakamskaya_naberezhnaya",
+            "Sad_250_letiya",
+            "Central_Park_Gorky"
         ]
     },
 
@@ -607,97 +660,46 @@ SUBCATEGORIES = {
         "places": [
             "Henkel_botanical_garden",
             "Serebryanskiy_park",
-            "Esplanada",
-            "Balatovo_Park",
             "Mindovsky_sad",
-            "Zakamskaya_naberezhnaya",
-            "Kama_Shore",
             "Sad_250_letiya",
+            "Balatovo_Park",
             "Rybalko_Park",
-            "Central_Park_Gorky"
+            "Zakamskaya_naberezhnaya",
+            "Esplanada",
+            "Chernyaevsky_les"
         ]
     },
 
-    "party": {
-        "title": "Массовые мероприятия",
+    "events": {
+        "title": "Массовые события",
         "places": [
             "Esplanada",
             "Central_Park_Gorky",
-            "Andronovskiye_prudy",
             "Perm_zoo",
-            "Perm_philharmonia",
+            "Perm_circus",
             "Opera_Ballet",
-            "Concert_Hall_Perm",
-            "City_Festival_Square",
+            "Perm_philharmonia",
             "Triumph_philharmonia",
-            "Kama_Fest_Area"
+            "Teatr_Teatr",
+            "Sad_250_letiya"
         ]
     },
 
-    # новые категории
-    "coffee_walk": {
-        "title": "Кофе и прогулка",
+    "city_walk": {
+        "title": "Городская прогулка",
         "places": [
             "Esplanada",
-            "Central_Park_Gorky",
-            "Mindovsky_sad",
-            "Sad_250_letiya",
-            "Happiness_not_far",
-            "Kama_Shore",
-            "Creative_Quarter",
-            "Zakamskaya_naberezhnaya",
-            "Perm_gallery",
-            "PERMM"
-        ]
-    },
-
-    "photo": {
-        "title": "Фотолокации",
-        "places": [
-            "Hands_Heart",
-            "Mirror_Bear",
-            "Happiness_not_far",
-            "Esplanada",
+            "Skver_Dzerzhinsky",
+            "Sad_Sverdlova",
             "Permyak_salted_ears",
-            "Kama_Shore",
-            "Balatovo_Park",
-            "Zakamskaya_naberezhnaya",
-            "Creative_Quarter",
-            "Street_Graffiti_Wall"
+            "Happiness_not_far",
+            "Mirror_Bear",
+            "Hands_Heart",
+            "Central_Park_Gorky",
+            "Zakamskaya_naberezhnaya"
         ]
     }
 
-}
-# ---------- РАЗДЕЛЫ ----------
-SECTIONS = {
-    "walk": {
-        "title": "🚶 Прогулка",
-        "categories": [
-            'streetart',
-            'familyWALK',
-            'nature',
-            'romantic',
-            'sport',
-            'study',
-            'relax',
-            'party',
-            'photo'
-        ]
-    },
-
-    "culture": {
-        "title": "🎭 Культура",
-        "categories": [
-            'NEWculture',
-            'family',
-            'music',
-            'theater',
-            'unusual',
-            'culture1',
-            'tourist',
-            'coffee_walk'
-        ]
-    }
 }
 users = {}
 
