@@ -4,7 +4,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 from vk_api.upload import VkUpload
 
-TOKEN = "vk1.a.0QKzlDuXplM3hiykiHxtnXUPvB6mH0T3LaiQFyYG4XJLcYcHqZ6km-Kx8kPCpK4qKiTfBcDiWu5w7caWCK74K2dKgO0x_q-NJFuvzaNVmfYMh87X8W04tdK4Qlhx5xygw7IuDdoQ3s80OFFNUjFqPfybYlUB05ZBAv-PKm7Y0sbdir0YMSw1wEJdLcbr7BsXIKSpSpuaYH2ZtqBD6l6bbw"
+TOKEN = "vk1.a.HKEhzThaAyhdLopMcqyM94XJg7Rn92mDKCuQU4WjfBEa-U4A34HLp8VjzIK8oH3q_dlOmlIyNjKL1-Ckk8N39DIBwTJeVXMIUrmkbSYiO9xiPoh2E-S8BEwvmlairntz0AGVggFjADbhCTXUJtNV7vWGZ85ikC8av7oJ3-K-BcEDIdrIBqDzvrreDEIDe42GTldvXsE5MxetK_wFISup-A"
 
 vk_session = vk_api.VkApi(token=TOKEN)
 vk = vk_session.get_api()
