@@ -508,7 +508,6 @@ SUBCATEGORIES = {
         "places": [
             "Perm_local_history_museum",
             "Perm_ancient_museum",
-            "Perm_gallery",
             "Skver_Dzerzhinsky",
             "Sad_Sverdlova",
             "Permyak_salted_ears",
