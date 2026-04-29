@@ -507,12 +507,12 @@ SUBCATEGORIES = {
         "title": "История",
         "places": [
             "Perm_local_history_museum",
+            "Perm_gallery",
             "Perm_ancient_museum",
             "Skver_Dzerzhinsky",
             "Sad_Sverdlova",
             "Permyak_salted_ears",
             "Russkiy_salon",
-            "House_Meshkov",
             "Perm_planetarium"
         ]
     },
